@@ -63,9 +63,9 @@
 
 ## Screenshots
 
-![Default interface](screenshots/img1.png)
+![Default interface](screenshots/1.png)
 
-![Used interface](screenshots/img2.png)
+![Used interface](screenshots/2.png)
 
 - The first screenshot is the interface by default.
 - The second screenshot is the interface when used : 
