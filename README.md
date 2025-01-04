@@ -1,0 +1,2 @@
+# SequenceComparer
+Burp Suite Extension
