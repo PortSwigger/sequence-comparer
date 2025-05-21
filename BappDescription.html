@@ -1,0 +1,28 @@
+<p>SequenceComparer is a Jython-based extension for Burp Suite that enables advanced comparison of sequences of HTTP requests and their responses. This tool is particularly useful for analyzing differences and similarities between two sets of HTTP sequences.</p>
+
+<h2>Features</h2>
+
+<p><strong>Context Menu Integration</strong></p>
+<p>Select one or multiple requests in the Burp Suites Proxy tab, then send them to SequenceComparer via the context menu.</p>
+<p><strong>Sequence Overview</strong></p>
+<p>Displays sequences in an array format, allowing you to assign names to sequences, view the number of requests in the sequence, and the total length of the responses in the sequence. The sequence order can be reversed.</p>
+<p><strong>Sequence Selection and Display</strong></p>
+<p>Select and display two sequences simultaneously, with requests from each sequence displayed in separate tables for easy side-by-side analysis.</p>
+<p><strong>Longest Common Subsequence (LCS) Analysis</strong></p>
+<p>Uses a dynamic programming algorithm to identify the longest common sequence of requests between two selected sequences. Request rows are coded by color to denote uniqueness or commonality in sequences and response body similarities and differences.</p>
+<p><strong>Detailed Request/Response View</strong></p>
+<p>Select a request to view its details or response body, depending on the selected mode. Utilizes a diff algorithm for a detailed comparison, highlighting deleted, added, and modified content in different colors.</p>
+<p><strong>Scroll Synchronization</strong></p>
+<p>Optional scroll synchronization feature allows you to scroll through the requests/responses of two sequences simultaneously, with scrolling in one panel mirroring the other.</p>
+<p><strong>Auto-Select Mode</strong></p>
+<p>Enable auto-select mode to automatically select a requests counterpart in the other sequence (if it exists) when a request is selected.</p>
+
+<h2>Usage</h2>
+<p>
+1. Select requests from Burp Suites HTTP history or repeater.<br/>
+2. Right-click and choose <code class=InlineCode>Send to SequenceComparer</code>.<br/>
+3. Open the SequenceComparer tab to analyze sequences:<br/>
+   - Use the dynamic programming-based LCS analysis for comparisons.<br/>
+   - Explore detailed differences with the diff algorithm.<br/>
+   - Adjust settings for scroll synchronization and auto-select mode as needed.<br/>
+</p>
